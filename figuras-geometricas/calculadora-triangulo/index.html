@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento</title>
+  </head>
+  <body>
+    <h2>Calcula el área y el perímetro de un triángulo</h2>
+    <form action="">
+      <label for="inputTrianguloLado1"
+        >Escribe cuánto mide cada lado uno de tu triángulo:
+      </label>
+      <input type="number" id="inputTrianguloLado1" />
+
+      <label for="inputinputTrianguloLado2"
+        >Escribe cuánto mide el lado dos de tu triángulo:
+      </label>
+      <input type="number" id="inputTrianguloLado2" />
+
+      <label for="inputTrianguloBase"
+        >Escribe cuánto mide la base de tu triángulo:
+      </label>
+      <input type="number" id="inputTrianguloBase" />
+
+      <button type="button" onclick="calcularPerimetroTriangulo()">
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaTriangulo()">
+        Calcular el área
+      </button>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
